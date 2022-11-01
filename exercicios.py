@@ -1,4 +1,4 @@
-turno = input(str("Digite o turno de estudo (M/T/N): "))
+turno = input(str("Digite o turno de estudo (M/T/N): ".replace("m","M")))
 
 if(turno == "M"):
     print("Bom dia!")
